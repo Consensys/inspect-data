@@ -1,0 +1,216 @@
+{
+  "platforms": [
+    {
+      "name": "Compound",
+      "type": "Lending",
+      "description": "Compound is an algorithmic money market protocol that lets users earn interest or borrow assets against collateral. It was upgraded to v2 in May 2019.",
+      "adminKeys": {
+        "config": {
+          "timelock": [true, "48 hours"],
+          "multisig": [false]
+        },
+        "opsec": {
+          "claimed": [true, "Offline multi-party process"],
+          "verified": [false, "Unverifiable"]
+        },
+        "address": ["0x6d903f6003cca6255d85cca4d3b5e5146dc33925"]
+      },
+      "audits": [
+        {
+          "date": "2/20/20",
+          "auditor": "Open Zeppelin",
+          "engineeringWeeks": null,
+          "public": true,
+          "notes": "MCD & DSR Integration",
+          "link": "https://blog.openzeppelin.com/compound-finance-mcd-dsr-integration/"
+        },
+        {
+          "date": "10/23/19",
+          "auditor": "Open Zeppelin",
+          "engineeringWeeks": null,
+          "public": true,
+          "notes": "Timelock Audit",
+          "link": "https://blog.openzeppelin.com/compound-finance-patch-audit/"
+        },
+        {
+          "date": "8/23/19",
+          "auditor": "Open Zeppelin",
+          "engineeringWeeks": null,
+          "public": true,
+          "notes": "General v2 audit",
+          "link": "https://blog.openzeppelin.com/compound-audit/"
+        },
+        {
+          "date": "8/16/19",
+          "auditor": "Trail of Bits",
+          "engineeringWeeks": 2,
+          "public": true,
+          "notes": null,
+          "link": "https://github.com/trailofbits/publications/blob/master/reviews/compound-3.pdf"
+        },
+        {
+          "date": "4/8/19",
+          "auditor": "Trail of Bits",
+          "engineeringWeeks": 8,
+          "public": true,
+          "notes": "General v2 audit",
+          "link": "https://github.com/trailofbits/publications/blob/master/reviews/compound-2.pdf"
+        }
+      ]
+    },
+    {
+      "name": "dYdX",
+      "type": "Lending",
+      "description": "dYdX is a decentralized trading platform. It was first proposed in September of 2017, with updates being made to the whitepaper as of August 2018.",
+      "adminKeys": {
+        "config": {
+          "timelock": [true, "72 hours"],
+          "multisig": [true, "2 of 3"]
+        },
+        "opsec": {
+          "claimed": [false],
+          "verified": [false, "Unverifiable"]
+        },
+        "address": ["0xba2906b18b069b40c6d2cafd392e76ad479b1b53"]
+      },
+      "audits": [
+        {
+          "date": "4/30/19",
+          "auditor": "Open Zeppelin",
+          "engineeringWeeks": null,
+          "public": true,
+          "notes": "Solo Margin Audit",
+          "link": "https://blog.openzeppelin.com/solo-margin-protocol-audit-30ac2aaf6b10/"
+        },
+        {
+          "date": "2/1/19",
+          "auditor": "Bramah Systems",
+          "engineeringWeeks": null,
+          "public": true,
+          "notes": "MCD & DSR Integration",
+          "link": "https://drive.google.com/file/d/0B2Pgxj7J8SEveTBOekp3Mkpna2lsNGlCYnlBVERpWVoybVlN/view"
+        }
+      ]
+    },
+    {
+      "name": "Aave",
+      "type": "Lending",
+      "description": "Aave is an open source and non-custodial protocol to both earn interest on deposits & also to borrow assets. It launched in January 2020.",
+      "adminKeys": {
+        "config": {
+          "timelock": [false],
+          "multisig": [true, "3 of 5"]
+        },
+        "opsec": {
+          "claimed": [true, "Keys in cold storage"],
+          "verified": [false, "Unverifiable"]
+        },
+        "address": ["0xcd8393b5b0ec5ab8dad4e648f709be6bac11874d"]
+      },
+      "audits": [
+        {
+          "date": "1/15/20",
+          "auditor": "Open Zeppelin",
+          "engineeringWeeks": null,
+          "public": true,
+          "notes": null,
+          "link": "https://blog.openzeppelin.com/aave-protocol-audit/"
+        },
+        {
+          "date": "9/25/19",
+          "auditor": "Trail of Bits",
+          "engineeringWeeks": 4,
+          "public": true,
+          "notes": null,
+          "link": "https://github.com/trailofbits/publications/blob/master/reviews/aaveprotocol.pdf"
+        }
+      ]
+    },
+    {
+      "name": "DDEX",
+      "type": "Lending",
+      "description": "DDEX is all-in-one optimized solution to decentralized borrowing, lending, and exchange. It launched in October 2019.",
+      "adminKeys": {
+        "config": {
+          "timelock": [true, "72 hours"],
+          "multisig": [true, "2 of 3"]
+        },
+        "opsec": {
+          "claimed": [false],
+          "verified": [false, "Unverifiable"]
+        },
+        "address": ["0x0a294e9b3af4c3579ea6584f3e26914b2daa72ca"]
+      },
+      "audits": [
+        {
+          "date": "8/21/19",
+          "auditor": "PeckShield",
+          "engineeringWeeks": null,
+          "public": true,
+          "notes": "v2 Audit",
+          "link": "https://github.com/HydroProtocol/audit-reports/blob/master/2.0/hydro_audit_report_2019_14_en_1_0.pdf"
+        },
+        {
+          "date": "12/20/18",
+          "auditor": "SECBIT",
+          "engineeringWeeks": null,
+          "public": true,
+          "notes": "v1 Audit",
+          "link": "https://github.com/sec-bit/hydro-audit-report/blob/master/Hydro_Protocol_Report_EN.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Fulcrum",
+      "type": "Lending",
+      "description": "Fulcrum is powered by bZx, a decentralized protocol for lending and trading with margin and leverage. The bZx protocol released to mainnet mid 2018. Fulcrum launched in June of 2019.",
+      "adminKeys": {
+        "config": {
+          "timelock": [false],
+          "multisig": [false]
+        },
+        "opsec": {
+          "claimed": [false],
+          "verified": [false, "Unverifiable"]
+        },
+        "address": ["0xBB536EB24Fb89B544d4Bd9e9F1f34D9Fd902bb96"]
+      },
+      "audits": [
+        {
+          "date": "9/1/18",
+          "auditor": "ZK Labs",
+          "engineeringWeeks": null,
+          "public": true,
+          "notes": null,
+          "link": "https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Nuo",
+      "type": "Lending",
+      "description": "Nuo Network is a non-custodial platform that provides a decentralized debt marketplace. It was launched in January 2019.",
+      "adminKeys": {
+        "config": {
+          "timelock": [false],
+          "multisig": [false]
+        },
+        "opsec": {
+          "claimed": [false],
+          "verified": [false, "Unverifiable"]
+        },
+        "address": ["0x3e990e787a88cd4426fb3af9b90dd1d951e2cb87"]
+      },
+      "audits": [
+        {
+          "date": "4/17/19",
+          "auditor": "Quantstamp",
+          "engineeringWeeks": null,
+          "public": false,
+          "notes": "Audit report was never made public",
+          "link": "https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf"
+        }
+      ]
+    }
+  ]
+}
