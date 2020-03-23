@@ -17,7 +17,7 @@
       },
       "audits": [
         {
-          "date": "2/20/20",
+          "date": "2020-02-20",
           "auditor": "Open Zeppelin",
           "engineeringWeeks": null,
           "public": true,
@@ -25,7 +25,7 @@
           "link": "https://blog.openzeppelin.com/compound-finance-mcd-dsr-integration/"
         },
         {
-          "date": "10/23/19",
+          "date": "2019-10-23 ",
           "auditor": "Open Zeppelin",
           "engineeringWeeks": null,
           "public": true,
@@ -33,7 +33,7 @@
           "link": "https://blog.openzeppelin.com/compound-finance-patch-audit/"
         },
         {
-          "date": "8/23/19",
+          "date": "2019-08-23",
           "auditor": "Open Zeppelin",
           "engineeringWeeks": null,
           "public": true,
@@ -41,7 +41,7 @@
           "link": "https://blog.openzeppelin.com/compound-audit/"
         },
         {
-          "date": "8/16/19",
+          "date": "2019-08-16",
           "auditor": "Trail of Bits",
           "engineeringWeeks": 2,
           "public": true,
@@ -49,7 +49,7 @@
           "link": "https://github.com/trailofbits/publications/blob/master/reviews/compound-3.pdf"
         },
         {
-          "date": "4/8/19",
+          "date": "2019-04-08",
           "auditor": "Trail of Bits",
           "engineeringWeeks": 8,
           "public": true,
@@ -75,7 +75,7 @@
       },
       "audits": [
         {
-          "date": "4/30/19",
+          "date": "2019-04-30",
           "auditor": "Open Zeppelin",
           "engineeringWeeks": null,
           "public": true,
@@ -83,7 +83,7 @@
           "link": "https://blog.openzeppelin.com/solo-margin-protocol-audit-30ac2aaf6b10/"
         },
         {
-          "date": "2/1/19",
+          "date": "2019-02-01",
           "auditor": "Bramah Systems",
           "engineeringWeeks": null,
           "public": true,
@@ -109,7 +109,7 @@
       },
       "audits": [
         {
-          "date": "1/15/20",
+          "date": "2020-01-15",
           "auditor": "Open Zeppelin",
           "engineeringWeeks": null,
           "public": true,
@@ -117,7 +117,7 @@
           "link": "https://blog.openzeppelin.com/aave-protocol-audit/"
         },
         {
-          "date": "9/25/19",
+          "date": "2019-09-25",
           "auditor": "Trail of Bits",
           "engineeringWeeks": 4,
           "public": true,
@@ -143,7 +143,7 @@
       },
       "audits": [
         {
-          "date": "8/21/19",
+          "date": "2019-08-21",
           "auditor": "PeckShield",
           "engineeringWeeks": null,
           "public": true,
@@ -151,7 +151,7 @@
           "link": "https://github.com/HydroProtocol/audit-reports/blob/master/2.0/hydro_audit_report_2019_14_en_1_0.pdf"
         },
         {
-          "date": "12/20/18",
+          "date": "2018-12-20",
           "auditor": "SECBIT",
           "engineeringWeeks": null,
           "public": true,
@@ -177,7 +177,7 @@
       },
       "audits": [
         {
-          "date": "9/1/18",
+          "date": "2018-09-01",
           "auditor": "ZK Labs",
           "engineeringWeeks": null,
           "public": true,
@@ -203,7 +203,7 @@
       },
       "audits": [
         {
-          "date": "4/17/19",
+          "date": "2019-04-17",
           "auditor": "Quantstamp",
           "engineeringWeeks": null,
           "public": false,
