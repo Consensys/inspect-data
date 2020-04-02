@@ -208,7 +208,56 @@
           "engineeringWeeks": null,
           "public": false,
           "notes": "Audit report was never made public",
-          "link": "https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf"
+          "link": null
+        }
+      ]
+    },
+    {
+      "name": "Maker",
+      "type": "Lending",
+      "description": "MakerDAO is a platform for issuing stable cryptocurrency that also has a lending like facility",
+      "adminKeys": {
+        "config": {
+          "timelock": [true, "24 hours"],
+          "multisig": [false, "N/A"]
+        },
+        "opsec": {
+          "claimed": [false],
+          "verified": [true, "MakerDAO uses decentralized governance so there are no admin keys"]
+        }
+      },
+      "audits": [
+        {
+          "date": "2020-02-21",
+          "auditor": "Trail of Bits",
+          "engineeringWeeks": null,
+          "public": true,
+          "notes": "Chai audit",
+          "link": "https://github.com/trailofbits/publications/blob/master/reviews/chai-loa.pdf"
+        },
+        {
+          "date": "2019-10-04",
+          "auditor": "Peckshield",
+          "engineeringWeeks": null,
+          "public": true,
+          "notes": null,
+          "link": "https://github.com/makerdao/mcd-security/blob/master/Audit%20Reports/PeckShield_Final_Audit_Report.pdf"
+        },
+        {
+          "date": "2019-08-30",
+          "auditor": "Trail of Bits",
+          "engineeringWeeks": 16,
+          "public": true,
+          "notes": "MCD security audit",
+          "link": "https://github.com/makerdao/mcd-security/blob/master/Audit%20Reports/TOB_MakerDAO_Final_Report.pdf"
+        },
+        {
+          "date": "2018-03-28",
+          "auditor": "Trail of Bits",
+          "engineeringWeeks": 6,
+          "public": true,
+          "notes": "General Dai audit",
+          "link": "https://github.com/makerdao/audits/blob/master/mcd/trail-of-bits.pdf"
         }
       ]
     }
