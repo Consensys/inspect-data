@@ -222,10 +222,9 @@
           "multisig": [false, "N/A"]
         },
         "opsec": {
-          "claimed": [false],
-          "verified": [true, "MakerDAO uses decentralized governance so there are no admin keys"]
-        },
-        "address": [null]
+          "claimed": [false, "N/A"],
+          "verified": [true, "N/A"]
+        }
       },
       "audits": [
         {
