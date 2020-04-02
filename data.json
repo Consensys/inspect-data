@@ -214,8 +214,8 @@
     },
     {
       "name": "Maker",
-      "type": "Lending",
-      "description": "MakerDAO is a platform for issuing stable cryptocurrency that also has a lending like facility",
+      "type": "Savings",
+      "description": "MakerDAO is a platform for issuing stable cryptocurrency that also has a savings like facility",
       "adminKeys": {
         "config": {
           "timelock": [true, "24 hours"],
@@ -224,7 +224,8 @@
         "opsec": {
           "claimed": [false],
           "verified": [true, "MakerDAO uses decentralized governance so there are no admin keys"]
-        }
+        },
+        "address": [null]
       },
       "audits": [
         {
