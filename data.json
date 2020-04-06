@@ -218,7 +218,7 @@
       "description": "MakerDAO is a platform for issuing stable cryptocurrency that also has a savings like facility",
       "adminKeys": {
         "config": {
-          "timelock": [true, "24 hours"],
+          "timelock": [true, "4 hours"],
           "multisig": [false, "N/A"]
         },
         "opsec": {
