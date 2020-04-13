@@ -111,7 +111,7 @@
         {
           "date": "2020-01-15",
           "auditor": "Open Zeppelin",
-          "engineeringWeeks": null,
+          "engineeringWeeks": 16,
           "public": true,
           "notes": null,
           "link": "https://blog.openzeppelin.com/aave-protocol-audit/"
