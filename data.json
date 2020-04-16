@@ -13,7 +13,8 @@
           "claimed": [true, "Offline multi-party process"],
           "verified": [false, "Unverifiable"]
         },
-        "address": ["0x6d903f6003cca6255d85cca4d3b5e5146dc33925"]
+        "address": ["0x6d903f6003cca6255d85cca4d3b5e5146dc33925"],
+        "summary": "Compound's protocol is upgradeable via a single admin key with a 2-day timelock. Compound claims to use an \"offline multi-party process\" for key security.\nUpdate: Feb 26, 2020\nCompound has announced the development of a token-based governance system which would aim to eliminate the need for the admin key described here. Transition date is still TBD."
       },
       "audits": [
         {
@@ -83,7 +84,8 @@
           "claimed": [false, null],
           "verified": [false, "Unverifiable"]
         },
-        "address": ["0xba2906b18b069b40c6d2cafd392e76ad479b1b53"]
+        "address": ["0xba2906b18b069b40c6d2cafd392e76ad479b1b53"],
+        "summary": "dYdX's protocol is upgradeable via an admin key with a 3-day timelock and 2-of-3 multisig. The admin key is capable of making changes to critical parts of the smart contract ecosystem."
       },
       "audits": [
         {
@@ -131,7 +133,8 @@
           "claimed": [true, "Keys in cold storage"],
           "verified": [false, "Unverifiable"]
         },
-        "address": ["0xcd8393b5b0ec5ab8dad4e648f709be6bac11874d"]
+        "address": ["0xcd8393b5b0ec5ab8dad4e648f709be6bac11874d"],
+        "summary": "Aave's protocol is 100% upgradeable via an admin key that is owned by an Aragon DAO. The DAO has 5 members and can approve admin key transactions with 3 \"Yes\" votes on a proposal. The key is capable of making sweeping changes to the protocol."
       },
       "audits": [
         {
@@ -191,7 +194,8 @@
           "claimed": [false, null],
           "verified": [false, "Unverifiable"]
         },
-        "address": ["0x0a294e9b3af4c3579ea6584f3e26914b2daa72ca"]
+        "address": ["0x0a294e9b3af4c3579ea6584f3e26914b2daa72ca"],
+        "summary": "DDEX's protocol is upgradeable via an admin key with a 3-day timelock and 2-of-3 multisig. The admin key is capable of making changes to critical parts of the smart contract ecosystem."
       },
       "audits": [
         {
@@ -237,7 +241,8 @@
           "claimed": [false, null],
           "verified": [false, "Unverifiable"]
         },
-        "address": ["0xBB536EB24Fb89B544d4Bd9e9F1f34D9Fd902bb96"]
+        "address": ["0xBB536EB24Fb89B544d4Bd9e9F1f34D9Fd902bb96"],
+        "summary": "> 🚨 PLEASE NOTE: bZx experienced multiple exploits in February 2020 which resulted in their timelock being removed so that the smart contracts could be upgraded. Below refers to their standard operating procedure, which is not currently in effect.\nbZx's protocol is upgradeable via a single-signer admin key with a 12 hour timelock. The key is capable of upgrading critical parts of the bZx smart contract ecosystem."
       },
       "audits": [
         {
@@ -279,7 +284,8 @@
           "claimed": [false, null],
           "verified": [false, "Unverifiable"]
         },
-        "address": ["0x3e990e787a88cd4426fb3af9b90dd1d951e2cb87"]
+        "address": ["0x3e990e787a88cd4426fb3af9b90dd1d951e2cb87"],
+        "summary": "Nuo's smart contracts are protected by a single admin key that has no timelock and no multisig protection. The admin key is capable of making changes to critical parts of the smart contract ecosystem and could endanger user funds if used maliciously."
       },
       "audits": [
         {
@@ -327,7 +333,8 @@
         "opsec": {
           "claimed": [false, "N/A"],
           "verified": [true, "N/A"]
-        }
+        },
+        "summary": "MakerDAO smart contracts do not have an admin key. There is no single key or multisig that can be used to modify MakerDAO's smart contracts. Any changes must be approved by a governance vote. Please note that this only relates to admin key risk and MakerDAO is still subject to smart contract risk."
       },
       "audits": [
         {
