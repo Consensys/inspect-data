@@ -247,6 +247,22 @@
           "public": true,
           "notes": null,
           "link": "https://github.com/mattdf/audits/blob/master/bZx/bzx-audit.pdf"
+        },
+        {
+          "date": "2020-02-05",
+          "auditor": "Certik",
+          "engineeringWeeks": 2,
+          "public": true,
+          "notes": null,
+          "link": "https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf"
+        },
+        {
+          "date": "2020-03-09",
+          "auditor": "Certik",
+          "engineeringWeeks": 2,
+          "public": true,
+          "notes": null,
+          "link": "https://bzx.network/pdfs/CertiK%20Verification%20Report%20for%20bZx.pdf"
         }
       ],
       "oracles": {
