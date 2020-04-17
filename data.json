@@ -14,7 +14,7 @@
           "verified": [false, "Unverifiable"]
         },
         "address": ["0x6d903f6003cca6255d85cca4d3b5e5146dc33925"],
-        "summary": "Compound's protocol is upgradeable via a single admin key with a 2-day timelock. Compound claims to use an \"offline multi-party process\" for key security.\nUpdate: April 16, 2020\nCompound announced that their token-based governance system is now live. This replaces the need for an admin key with community governance through the COMP token."
+        "summary": "Compound recently announced that their token-based governance system is now live. This replaces the need for an admin key with community governance through the COMP token."
       },
       "audits": [
         {
